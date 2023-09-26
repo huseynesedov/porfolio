@@ -14,7 +14,7 @@ const Portfolio = () => {
       description:
         "demo web site for people to buy scooters and scooter locks conveniently.",
       technologies: "React | CSS | Redux ",
-      link: "https://educational-website-reactjs.netlify.app/",
+      link: "",
     }
   ];
 
