@@ -1,7 +1,8 @@
 import "./portfolio.css";
 
 import IMG1 from "../../assets/Electric-scooter.PNG";
-import IMG1 from "../../assets/sudoku.PNG";
+import IMG2 from "../../assets/sudoku.PNG";
+import IMG3 from "../../assets/dragdrop.PNG";
 
 import React from "react";
 
@@ -27,9 +28,9 @@ const Portfolio = () => {
       link: "https://sudokugamev1.vercel.app/",
     },
     {
-      id: 2,
+      id: 3,
       title: "Drag And Drop",
-      img: IMG2,
+      img: IMG3,
       description:
         "demo web site for people to Drag Game and Drop locks conveniently.",
       technologies: "Html | CSS | Js ",
