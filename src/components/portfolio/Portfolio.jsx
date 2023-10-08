@@ -1,6 +1,7 @@
 import "./portfolio.css";
 
 import IMG1 from "../../assets/Electric-scooter.PNG";
+import IMG1 from "../../assets/sudoku.PNG";
 
 import React from "react";
 
@@ -15,7 +16,26 @@ const Portfolio = () => {
         "demo web site for people to buy scooters and scooter locks conveniently.",
       technologies: "React | CSS | Redux ",
       link: "https://electric-scooter.vercel.app",
+    },
+    {
+      id: 2,
+      title: "Sudoku Game",
+      img: IMG2,
+      description:
+        "demo web site for people to Sudoku Game and Sudoku locks conveniently.",
+      technologies: "Html | CSS | Js ",
+      link: "https://sudokugamev1.vercel.app/",
+    },
+    {
+      id: 2,
+      title: "Drag And Drop",
+      img: IMG2,
+      description:
+        "demo web site for people to Drag Game and Drop locks conveniently.",
+      technologies: "Html | CSS | Js ",
+      link: "https://drag-dropv1.vercel.app/",
     }
+
   ];
 
   return (
