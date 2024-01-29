@@ -4,7 +4,7 @@ import IMG1 from "../../assets/Electric-scooter.PNG";
 import IMG2 from "../../assets/sudoku.PNG";
 import IMG3 from "../../assets/dragdrop.PNG";
 import IMG4 from "../../assets/Education.PNG";
-import IMG5 from "../../assets/SabiMed.PNG ";
+import IMG5 from "../../assets/SabiMed.PNG";
 
 import React from "react";
 
@@ -110,7 +110,7 @@ const Portfolio = () => {
 
       <div className="container portfolio__container">
         {games.map((pros) => (
-          <article className="portfolio__item" key={pro.id}>
+          <article className="portfolio__item" key={pros.id}>
             <div className="portfolio__item-image">
               <img src={pros.img} alt={pros.title} />
             </div>
